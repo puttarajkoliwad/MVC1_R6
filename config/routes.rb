@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  #rails routes --expanded: This command lists all the routes defined in the application in user-friendly way.
+
+  resources :articles
   #Every route/redirect should be defined from here.
   #Format is:  <type of request> <routepath>, to: '<controller>#<action/method>'
 
