@@ -13,4 +13,8 @@ class PagesController < ApplicationController
         #This method expects 'home.html.erb' in 'MVC1/app/views/pages'. It should be created manually.
     end
 
+    ###route GET 'about', to:"pages#about"
+    def about
+    end
+
 end
