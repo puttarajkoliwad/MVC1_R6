@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   #rails routes --expanded: This command lists all the routes defined in the application in user-friendly way.
 
   resources :articles
